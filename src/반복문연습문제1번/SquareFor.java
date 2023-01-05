@@ -13,11 +13,11 @@ public class SquareFor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = 0;
-        System.out.print("10 미만의 자연수를 입력하세요 : ");
+        System.out.print("31 이하의 자연수를 입력하세요 : ");
         int input = sc.nextInt();
         for (int i = 1; i <= input; i++) {
             for (int j = 1; j <= input; j++) {
-                System.out.printf("%3d", ++number);
+                System.out.printf("%4d", ++number);
             }
             System.out.println();
         }
